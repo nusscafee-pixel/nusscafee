@@ -26,6 +26,7 @@ This repo holds the Instagram content for **Nuss Cafe (نُص كافيه)**. The
 
 ## Image generation
 The owner wants generation fully hooked up so Claude can work alone.
-- **Magnific** connector is linked, but the account had ~0 credits. Check `account_balance` first.
+- **Magnific** connector is linked and is the chosen generator. Check `account_balance` first. Nano Banana Pro (`imagen-nano-banana-2`) with the product photo as an `image` reference and `9.jpg` as a `style` reference works well. Upload repo images by their raw.githubusercontent.com URL.
+- Magnific results are served from `pikaso.cdnpk.net`. That host must be in the environment's allowed domains, or the container can't download results to composite text on them.
 - **Adobe** connector is linked, but it has no generative image tools.
 - A Gemini or OpenAI API key may be configured as an environment secret (`GEMINI_API_KEY` / `OPENAI_API_KEY`). Never ask for keys in chat.
