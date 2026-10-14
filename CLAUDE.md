@@ -43,4 +43,5 @@ The owner wants generation fully hooked up so Claude can work alone.
 - **No shadow or glow behind text.** Text sits on a darkened or blurred background instead.
 - Keep text near the top: headline top-right, a tag pill above it. Don't push text to the bottom.
 - Tidy, consistent layout: pill, then 2-line headline, then product label with arrow, then footer.
-- **Don't show too much of the place:** blur and darken the background around the product (rembg mask plus blur). See `tools/example_indomie.py`.
+- **Keep the place details.** The owner tried a blurred background and reverted it; they prefer the scene visible. Frame the scene so the top is calm for the text.
+- **Indomie is served plain with spices only.** No egg, cheese or vegetables.
