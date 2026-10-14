@@ -1,7 +1,7 @@
 import sys,math
 from PIL import Image,ImageDraw,ImageFont,ImageFilter,ImageEnhance,ImageChops
 import os
-S=os.environ.get('NUSS_WORK','/tmp/nuss/')  # folder with fonts/ products/ gen/ logo.png out/
+S=os.environ.get('NUSS_WORK','/tmp/nuss/')  # folder with fonts/ products/ gen/ gen10/ logo.png out/
 W,H=1080,1350
 TEAL=(47,112,104); TEAL_D=(35,92,86); WHITE=(245,243,238)
 R=ImageFont.Layout.RAQM
