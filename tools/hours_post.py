@@ -17,14 +17,14 @@ def card(x0,x1,day,hrs,note=None):
     dd.text((x1-26,390),day,font=SB(32),fill=(130,200,190),direction='rtl',anchor='rs')
     dd.text((x1-26,455),hrs,font=DB(50),fill=WHITE,direction='rtl',anchor='rs')
     if note: dd.text((x1-26,488),note,font=SR(22),fill=(190,205,202),direction='rtl',anchor='rs')
-card(530,1010,'من السبت للخميس','١٠ الصبح – ١٠ المسا')
-card(70,510,'الجمعة','٣ العصر – ١٠ المسا','(الجمعة بنتدلّع شوي)')
+card(530,1010,'من السبت للخميس','10 الصبح – 10 المسا')
+card(70,510,'الجمعة','3 العصر – 10 المسا','(الجمعة بنتدلّع شوي)')
 # funny label on the sleeping cup
 lx,ly=1010,640
 hl(im,d,lx,ly,'نايمـــة',SB(40),pad=(8,2),skew=3); d=ImageDraw.Draw(im)
 d.text((lx,ly),'نايمـــة',font=SB(40),fill=WHITE,direction='rtl',anchor='rs')
-d.text((lx,ly+42),'وبتصحى الساعة ١٠ الصبح',font=SR(30),fill=WHITE,direction='rtl',anchor='rs')
-d.text((lx,ly+80),'بعد الـ١٠ المسا؟ روح نام إنت كمان',font=SR(26),fill=(200,212,209),direction='rtl',anchor='rs')
+d.text((lx,ly+42),'وبتصحى الساعة 10 الصبح',font=SR(30),fill=WHITE,direction='rtl',anchor='rs')
+d.text((lx,ly+80),'بعد الـ10 المسا؟ روح نام إنت كمان',font=SR(26),fill=(200,212,209),direction='rtl',anchor='rs')
 arrow_c(im,[(770,700),(760,740),(780,770),(800,800)] if False else [(665,705),(625,690),(595,720),(575,770)],WHITE)
 footer_c(im)
 im.convert('RGB').save(S+'out/hours_post.jpg',quality=95)
@@ -35,7 +35,7 @@ import copy
 ov=im.crop((0,0,W,520)); st.alpha_composite(ov,(0,120)) if False else None
 st.paste(im.crop((0,0,W,H)),(0,120))
 dd=ImageDraw.Draw(st)
-dd.text((1010,1565),'إحنا بنسكّر ١٠ المسا...',font=DB(64),fill=WHITE,direction='rtl',anchor='rs')
+dd.text((1010,1565),'إحنا بنسكّر 10 المسا...',font=DB(64),fill=WHITE,direction='rtl',anchor='rs')
 w=tw(dd,'تعال ',DB(80)); hl(st,dd,1010-w,1660,'بكّيـــر',DB(80),pad=(14,4),skew=7); dd=ImageDraw.Draw(st)
 dd.text((1010,1660),'تعال ',font=DB(80),fill=WHITE,direction='rtl',anchor='rs'); dd.text((1010-w,1660),'بكّيـــر',font=DB(80),fill=WHITE,direction='rtl',anchor='rs')
 

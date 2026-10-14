@@ -31,6 +31,9 @@ The owner wants generation fully hooked up so Claude can work alone.
 - **Adobe** connector is linked, but it has no generative image tools.
 - A Gemini or OpenAI API key may be configured as an environment secret (`GEMINI_API_KEY` / `OPENAI_API_KEY`). Never ask for keys in chat.
 
+## Numbers
+- Always use **English digits** (10, 3), never Arabic-Indic (١٠).
+
 ## Opening hours
 - **Saturday to Thursday:** 10:00 to 22:00. **Friday:** 15:00 to 22:00.
 - They close at **22:00**. Never imply late-night or after-closing service, and never schedule a call-to-action story after 22:00.
