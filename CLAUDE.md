@@ -30,3 +30,9 @@ The owner wants generation fully hooked up so Claude can work alone.
 - Magnific results are served from `pikaso.cdnpk.net`. That host must be in the environment's allowed domains, or the container can't download results to composite text on them.
 - **Adobe** connector is linked, but it has no generative image tools.
 - A Gemini or OpenAI API key may be configured as an environment secret (`GEMINI_API_KEY` / `OPENAI_API_KEY`). Never ask for keys in chat.
+
+## Publishing (Metricool)
+- The Metricool connector is linked. Brand `Nusscafee` (blogId `7418806`), Instagram `nusscafee`, timezone `Asia/Hebron`.
+- Media goes in as public raw.githubusercontent.com URLs from this branch, so push the images before scheduling.
+- Pattern: post at **20:00** (Metricool's best time) and the matching story at **17:00**. Set `isAiGenerated: true`, because the scenes are AI-generated.
+- 15–24 Oct 2026 is scheduled (see `posts/daily/SCHEDULE.md`). The Qunbulet al-Nuss carousel and the Spanish latte post are made but not scheduled yet.
