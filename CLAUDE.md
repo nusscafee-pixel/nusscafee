@@ -42,7 +42,20 @@ The owner wants generation fully hooked up so Claude can work alone.
 - The Metricool connector is linked. Brand `Nusscafee` (blogId `7418806`), Instagram `nusscafee`, timezone `Asia/Hebron`.
 - Media goes in as public raw.githubusercontent.com URLs from this branch, so push the images before scheduling.
 - Pattern: post at **20:00** (Metricool's best time) and the matching story at **17:00**. Set `isAiGenerated: true`, because the scenes are AI-generated.
-- Scheduled so far: 15–24 Oct daily post + story (`posts/daily/SCHEDULE.md`), 25 Oct the Qunbulet al-Nuss reel (with generated music), 26–30 Oct five posts from `posts/sample_style/`, and 17–19 Oct the three Indomie posts at **13:00** (lunchtime, so they don't clash with the 20:00 posts). The Qunbulet carousel and the first Spanish latte post are made but not scheduled.
+- **3 posts a day** (owner asked to intensify), plus stories. Slots: **10:30** (world20 posts), **13:00** (Indomie campaign), **20:00** (daily/sample posts). Stories at **17:00** (daily) and **18:00** (campaign). On Fridays (opens 15:00) use **15:30 / 18:30 / 20:00**.
+- Scheduled so far, all in Metricool:
+  - 15–24 Oct: daily post and story (`posts/daily/SCHEDULE.md`).
+  - 17–19 Oct: three Indomie posts at 13:00.
+  - 20–29 Oct:
+    - Campaign `camp_post01-10` at 13:00 (Friday 23rd at 15:30).
+    - `camp_story01-10` at 18:00.
+    - World20 `w07–w16` at 10:30 (Friday 23rd at 18:30).
+  - 25 Oct: the Qunbulet reel at 20:00.
+  - 26–30 Oct: sample_style posts at 20:00.
+  - 30 Oct: `w17` at 15:30 and the Qunbulet carousel at 18:30.
+  - 31 Oct: `w18` at 10:30, the Spanish latte post at 13:00, and `w19` at 20:00.
+  - 1 Nov: `w20` at 10:30.
+  - The schedule runs out after 1 Nov, so new content is needed from 2 Nov.
 - **Captions:** the owner wants them **short**: one line plus an emoji, then `📍 تقاطع شارع ملعب فلسطين، مع شارع التايلاندي`, then 2–3 hashtags.
 - `brand/samples/` holds the owner's newest reference posts. Match their layouts.
 
