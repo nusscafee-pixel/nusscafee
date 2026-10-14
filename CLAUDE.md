@@ -45,3 +45,13 @@ The owner wants generation fully hooked up so Claude can work alone.
 - Tidy, consistent layout: pill, then 2-line headline, then product label with arrow, then footer.
 - **Keep the place details.** The owner tried a blurred background and reverted it; they prefer the scene visible. Frame the scene so the top is calm for the text.
 - **Indomie is served plain with spices only.** No egg, cheese or vegetables.
+
+## Editorial layouts (`tools/world20_layouts.py`)
+There are five typography layouts, all without shadows:
+- **A:** giant single word with a magazine header line.
+- **B:** stacked column with a teal rule.
+- **C:** centred minimal.
+- **D:** big teal quote mark.
+- **E:** outlined giant word.
+
+Text color switches to dark automatically over light backgrounds. The product label is auto-placed from a rembg mask.
