@@ -35,4 +35,6 @@ The owner wants generation fully hooked up so Claude can work alone.
 - The Metricool connector is linked. Brand `Nusscafee` (blogId `7418806`), Instagram `nusscafee`, timezone `Asia/Hebron`.
 - Media goes in as public raw.githubusercontent.com URLs from this branch, so push the images before scheduling.
 - Pattern: post at **20:00** (Metricool's best time) and the matching story at **17:00**. Set `isAiGenerated: true`, because the scenes are AI-generated.
-- 15–24 Oct 2026 is scheduled (see `posts/daily/SCHEDULE.md`). The Qunbulet al-Nuss carousel and the Spanish latte post are made but not scheduled yet.
+- Scheduled so far: 15–24 Oct daily post + story (`posts/daily/SCHEDULE.md`), 25 Oct the Qunbulet al-Nuss reel (with generated music), and 26–30 Oct five posts from `posts/sample_style/`. The Qunbulet carousel and the first Spanish latte post are made but not scheduled.
+- **Captions:** the owner wants them **short**: one line plus an emoji, then `📍 تقاطع شارع ملعب فلسطين، مع شارع التايلاندي`, then 2–3 hashtags.
+- `brand/samples/` holds the owner's newest reference posts. Match their layouts.
