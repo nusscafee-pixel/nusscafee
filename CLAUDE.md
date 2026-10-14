@@ -50,6 +50,7 @@ The owner wants generation fully hooked up so Claude can work alone.
     - Campaign `camp_post01-10` at 13:00 (Friday 23rd at 15:30).
     - `camp_story01-10` at 18:00.
     - World20 `w07–w16` at 10:30 (Friday 23rd at 18:30).
+  - 17–22 Oct (Sat–Thu): "الشتا قرّب" humor series (`posts/winter_humor/`, `tools/winter_humor.py`). Posts at **16:00**, stories at **19:00**. Items: hot chocolate, cappuccino, mint tea, brownie, espresso, hot latte.
   - 25 Oct: the Qunbulet reel at 20:00.
   - 26–30 Oct: sample_style posts at 20:00.
   - 30 Oct: `w17` at 15:30 and the Qunbulet carousel at 18:30.
