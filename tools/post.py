@@ -1,7 +1,7 @@
 import sys,math
 from PIL import Image,ImageDraw,ImageFont,ImageFilter,ImageEnhance,ImageChops
 import os
-S=os.environ.get('NUSS_WORK','/tmp/nuss/')  # folder with fonts/ products/ logo.png out/
+S=os.environ.get('NUSS_WORK','/tmp/nuss/')  # folder with fonts/ products/ gen/ logo.png out/
 W,H=1080,1350
 TEAL=(47,112,104); TEAL_D=(35,92,86); WHITE=(245,243,238)
 R=ImageFont.Layout.RAQM
@@ -79,3 +79,33 @@ def place(im,scale=.82,cx=.5,bottom=0):
     m=Image.new('L',fg.size,0); md=ImageDraw.Draw(m); e=90
     md.rectangle([e,e,fg.width-e,fg.height-e],fill=255); m=m.filter(ImageFilter.GaussianBlur(50))
     bg.paste(fg,(x,y),m); return bg
+
+def shadow_text(base,items,blur=10,alpha=170):
+    """items: list of (x,y,text,font); soft dark shadow behind for readability"""
+    lay=Image.new('L',base.size,0); d=ImageDraw.Draw(lay)
+    for x,y,t,f in items: d.text((x,y+3),t,font=f,fill=255,direction='rtl',anchor='rs',stroke_width=6,stroke_fill=255)
+    lay=lay.filter(ImageFilter.GaussianBlur(blur)).point(lambda v:v*alpha//255)
+    base.alpha_composite(Image.merge('RGBA',(*Image.new('RGB',base.size,(0,0,0)).split(),lay)))
+
+def headline(img,XR,y1,l1,l2a,l2b,f,gap=104):
+    """two-line headline; l2b gets the teal block. returns draw"""
+    d=ImageDraw.Draw(img); wa=tw(d,l2a,f) if l2a else 0
+    shadow_text(img,[(XR,y1,l1,f),(XR,y1+gap,l2a+l2b,f)])
+    d=ImageDraw.Draw(img)
+    hl(img,d,XR-wa,y1+gap,l2b,f,pad=(16,4),skew=8); d=ImageDraw.Draw(img)
+    text(d,XR,y1,l1,f)
+    if l2a: text(d,XR,y1+gap,l2a,f)
+    text(d,XR-wa,y1+gap,l2b,f); return d
+
+def label(img,lx,ly,bold,sub,arrow_pts):
+    d=ImageDraw.Draw(img)
+    shadow_text(img,[(lx,ly,bold,SB(40)),(lx,ly+42,sub,SR(30))],blur=8,alpha=150) if sub else shadow_text(img,[(lx,ly,bold,SB(40))],blur=8,alpha=150)
+    d=ImageDraw.Draw(img)
+    hl(img,d,lx,ly,bold,SB(40),pad=(8,2),skew=3); d=ImageDraw.Draw(img)
+    text(d,lx,ly,bold,SB(40))
+    if sub: text(d,lx,ly+42,sub,SR(30))
+    arrow(img,arrow_pts)
+
+def logo_br(img,size=118):
+    lg=Image.open(S+'logo.png'); lg=lg.resize((size,round(lg.height*size/lg.width)),Image.LANCZOS)
+    img.alpha_composite(lg,(W-60-size,H-48-lg.height))
