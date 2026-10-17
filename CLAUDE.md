@@ -57,6 +57,7 @@ The owner wants generation fully hooked up so Claude can work alone.
   - 31 Oct: `w18` at 10:30, the Spanish latte post at 13:00, and `w19` at 20:00.
   - 1 Nov: `w20` at 10:30.
   - The schedule runs out after 1 Nov, so new content is needed from 2 Nov.
+  - 2 Nov 20:00: a **draft** placeholder ("مين إنت بالشتا" #1, uuid `1327492236464965757`). Replace its image with the generated-scene version, then un-draft it.
 - **Captions:** the owner wants them **short**: one line plus an emoji, then `📍 تقاطع شارع ملعب فلسطين، مع شارع التايلاندي`, then 2–3 hashtags.
 - `brand/samples/` holds the owner's newest reference posts. Match their layouts.
 
@@ -66,6 +67,7 @@ The owner wants generation fully hooked up so Claude can work alone.
 - Tidy, consistent layout: pill, then 2-line headline, then product label with arrow, then footer.
 - **Keep the place details.** The owner tried a blurred background and reverted it; they prefer the scene visible. Frame the scene so the top is calm for the text.
 - **Indomie is served plain with spices only.** No egg, cheese or vegetables.
+- **No posts made from the plain menu/studio photos with a dark grade.** The owner rejected this (`posts/who_winter/`). Every post needs a generated scene with an idea, like the winter_humor series.
 
 ## Editorial layouts (`tools/world20_layouts.py`)
 There are five typography layouts, all without shadows:
