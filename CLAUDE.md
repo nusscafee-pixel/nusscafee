@@ -28,6 +28,7 @@ This repo holds the Instagram content for **Nuss Cafe (نُص كافيه)**. The
 The owner wants generation fully hooked up so Claude can work alone.
 - **Magnific** connector is linked and is the chosen generator. Check `account_balance` first. Nano Banana Pro (`imagen-nano-banana-2`) with the product photo as an `image` reference and `9.jpg` as a `style` reference works well. Upload repo images by their raw.githubusercontent.com URL.
 - Magnific results are served from `pikaso.cdnpk.net`. That host must be in the environment's allowed domains, or the container can't download results to composite text on them.
+- **Cheap fallback:** the ChatGPT model on Magnific (`gpt-2-mini`, "GPT 2.5") at `quality: low`, `resolution: 1k`, ratio 3:4 costs **15 credits** and looks good. Nano Banana Pro costs 75. Use `simulate_cost` to check prices.
 - **Adobe** connector is linked, but it has no generative image tools.
 - A Gemini or OpenAI API key may be configured as an environment secret (`GEMINI_API_KEY` / `OPENAI_API_KEY`). Never ask for keys in chat.
 
@@ -57,7 +58,7 @@ The owner wants generation fully hooked up so Claude can work alone.
   - 31 Oct: `w18` at 10:30, the Spanish latte post at 13:00, and `w19` at 20:00.
   - 1 Nov: `w20` at 10:30.
   - The schedule runs out after 1 Nov, so new content is needed from 2 Nov.
-  - 2 Nov 20:00: a **draft** placeholder ("مين إنت بالشتا" #1, uuid `1327492236464965757`). Replace its image with the generated-scene version, then un-draft it.
+  - 2 Nov 20:00: "مين إنت بالشتا" #1 (uuid `1327492236464965757`), on a generated scene. Posts 2 and 5 are made; 3, 4 and 6 wait for credits.
 - **Captions:** the owner wants them **short**: one line plus an emoji, then `📍 تقاطع شارع ملعب فلسطين، مع شارع التايلاندي`, then 2–3 hashtags.
 - `brand/samples/` holds the owner's newest reference posts. Match their layouts.
 
