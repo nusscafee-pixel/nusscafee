@@ -42,7 +42,7 @@ The owner wants generation fully hooked up so Claude can work alone.
 ## Publishing (Metricool)
 - The Metricool connector is linked. Brand `Nusscafee` (blogId `7418806`), Instagram `nusscafee`, timezone `Asia/Hebron`.
 - Media goes in as public raw.githubusercontent.com URLs from this branch, so push the images before scheduling.
-- Pattern: post at **20:00** (Metricool's best time) and the matching story at **17:00**. Set `isAiGenerated: true`, because the scenes are AI-generated.
+- Pattern: post at **20:00** (Metricool's best time) and the matching story at **17:00**. **Set `isAiGenerated: false`.** The owner does not want the AI label on posts.
 - **3 posts a day** (owner asked to intensify), plus stories. Slots: **10:30** (world20 posts), **13:00** (Indomie campaign), **20:00** (daily/sample posts). Stories at **17:00** (daily) and **18:00** (campaign). On Fridays (opens 15:00) use **15:30 / 18:30 / 20:00**.
 - Scheduled so far, all in Metricool:
   - 15–24 Oct: daily post and story (`posts/daily/SCHEDULE.md`).
