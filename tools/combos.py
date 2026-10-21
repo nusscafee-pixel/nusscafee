@@ -92,6 +92,17 @@ def price_box(img,cx,cy,old,new,tag='عرض خاص',rot=-3):
     x=int(cx-lay.width/2); y=int(cy-lay.height/2); x=max(-pad+10,min(W-lay.width+pad-10,x))
     img.alpha_composite(lay,(x,y))
 
+def price_light(img,old,new,XR=1010,y=420):
+    d=ImageDraw.Draw(img); fN=DB(64); fS=SR(30); fO=SR(32)
+    sh='شيكل'; ws=tw(d,sh,fS); nb=d.textbbox((0,0),new,font=fN); wn=nb[2]-nb[0]; wo=d.textbbox((0,0),old,font=fO)[2]
+    gap=14; total=ws+gap+wn+34+wo; x0=XR-total-34; y0=y-62; y1=y+20
+    d.rounded_rectangle([x0,y0,XR,y1],radius=(y1-y0)/2,outline=(244,238,226),width=2)
+    x=XR-20
+    d.text((x,y-4),sh,font=fS,fill=(230,222,205),direction='rtl',anchor='rs'); x-=ws+gap
+    d.text((x,y),new,font=fN,fill=WHITE,anchor='rs'); x-=wn+34
+    d.text((x,y-4),old,font=fO,fill=(170,180,176),anchor='rs')
+    d.line([(x-wo-4,y-14),(x+4,y-30)],fill=(232,110,96),width=3)
+
 def price(img,cx,cy,num,sub=None):
     d=ImageDraw.Draw(img); r=105
     d.ellipse([cx-r,cy-r,cx+r,cy+r],fill=(241,234,221)); d.ellipse([cx-r+10,cy-r+10,cx+r-10,cy+r-10],outline=TEAL,width=3)
@@ -129,7 +140,7 @@ for src_,name,pill,l1,l2,labs,pr,cap in C:
     for lab in labs:
         if len(lab)==3: auto_label(im,*lab)
         else: mlabel(im,*lab)
-    price_box(im,pr[2],pr[3],pr[0],pr[1])
+    price_light(im,pr[0],pr[1])
     footer_c(im); im.convert('RGB').save(O+name+'.jpg',quality=95); caps.append((name,cap))
 sh=Image.new('RGB',(3*400+20,1010),(30,30,30))
 for i,(n,_) in enumerate(caps): sh.paste(Image.open(O+n+'.jpg').resize((400,500)),((i%3)*410,(i//3)*510))
