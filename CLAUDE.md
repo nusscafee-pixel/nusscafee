@@ -79,3 +79,10 @@ There are five typography layouts, all without shadows:
 - **E:** outlined giant word.
 
 Text color switches to dark automatically over light backgrounds. The product label is auto-placed from a rembg mask.
+
+## Instagram skills (`.claude/skills/ig-*`)
+- These are installed from github.com/Jakeschincariol/instagram-agent-skill (MIT), with the owner's approval.
+- They cover planning (`/ig-plan`), stories, captions, comment replies, DMs, profile audits and post-mortems.
+- They write text only. They don't post, and they don't replace Metricool.
+- Brand voice lives in `brand/voice.md`. Copy it to `~/.claude/instagram/voice.md` before using them.
+- They are English-centric. For Arabic captions, follow the caption rules above, which take priority.
