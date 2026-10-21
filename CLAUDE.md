@@ -68,6 +68,7 @@ The owner wants generation fully hooked up so Claude can work alone.
 - Tidy, consistent layout: pill, then 2-line headline, then product label with arrow, then footer.
 - **Keep the place details.** The owner tried a blurred background and reverted it; they prefer the scene visible. Frame the scene so the top is calm for the text.
 - **Indomie is served plain with spices only.** No egg, cheese or vegetables.
+- **Keep the original style.** That means a dark cinematic generated scene, the headline top-right with a teal highlight, the product label with an arrow, and the footer, as in winter_humor and world20. The owner rejected flat graphic or cutout "modern" layouts (`posts/modern/`, called "هبل") and doodle-heavy redesigns. Don't propose new visual directions unless asked.
 - **No posts made from the plain menu/studio photos with a dark grade.** The owner rejected this (`posts/who_winter/`). Every post needs a generated scene with an idea, like the winter_humor series.
 
 ## Editorial layouts (`tools/world20_layouts.py`)
