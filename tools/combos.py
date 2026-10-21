@@ -49,6 +49,49 @@ def price_banner(img,cx,cy,old,new,tag='عرض!',rot=6):
     x=max(-5,min(W-lay.width+5,x))
     img.alpha_composite(lay,(x,y))
 
+GOLD=(216,190,128); CRM=(244,238,226)
+def price_box(img,cx,cy,old,new,tag='عرض خاص',rot=-3):
+    tmp=ImageDraw.Draw(Image.new('RGBA',(10,10)))
+    fN=DBk(140); nb=tmp.textbbox((0,0),new,font=fN); nw=nb[2]-nb[0]
+    fS=SB(36); sw=tw(tmp,'شيكل',fS)
+    bw=max(330,nw+sw+110); bh=270; ex=18; pad=60
+    Wl,Hl=bw+2*pad+ex,bh+2*pad+ex; lay=Image.new('RGBA',(Wl,Hl),(0,0,0,0))
+    x0,y0=pad,pad; x1,y1=x0+bw,y0+bh
+    # soft drop shadow
+    sh=Image.new('RGBA',(Wl,Hl),(0,0,0,0)); ImageDraw.Draw(sh).rounded_rectangle([x0+ex,y0+ex+14,x1+ex,y1+ex+14],radius=34,fill=(0,0,0,150))
+    lay.alpha_composite(sh.filter(ImageFilter.GaussianBlur(18)))
+    d=ImageDraw.Draw(lay)
+    # extrusion (3D depth)
+    for k in range(ex,0,-1):
+        t=k/ex; c=(int(14+8*t),int(48+10*t),int(45+10*t))
+        d.rounded_rectangle([x0+k,y0+k,x1+k,y1+k],radius=34,fill=c+(255,))
+    # front face gradient
+    face=Image.new('RGBA',(bw,bh)); fd=ImageDraw.Draw(face)
+    for yy in range(bh):
+        t=yy/bh; fd.line([(0,yy),(bw,yy)],fill=(int(64-34*t),int(150-58*t),int(140-54*t),255))
+    m=Image.new('L',(bw,bh),0); ImageDraw.Draw(m).rounded_rectangle([0,0,bw-1,bh-1],radius=34,fill=255)
+    lay.paste(face,(x0,y0),m)
+    # gloss
+    gl=Image.new('RGBA',(Wl,Hl),(0,0,0,0)); ImageDraw.Draw(gl).rounded_rectangle([x0+8,y0+6,x1-8,y0+bh*.42],radius=30,fill=(255,255,255,38))
+    lay.alpha_composite(gl.filter(ImageFilter.GaussianBlur(4)))
+    d=ImageDraw.Draw(lay)
+    d.rounded_rectangle([x0+12,y0+12,x1-12,y1-12],radius=26,outline=GOLD,width=2)
+    # tag tab
+    ft=SB(28); tw_=tw(d,tag,ft); tx=(x0+x1)/2
+    d.rounded_rectangle([tx-tw_/2-26,y0-22,tx+tw_/2+26,y0+24],radius=22,fill=GOLD)
+    d.text((tx,y0+12),tag,font=ft,fill=(20,40,37),direction='rtl',anchor='ms')
+    # old price struck
+    fo=SR(36); so='بدل '+old+' شيكل'; ow=tw(d,so,fo)
+    d.text((tx,y0+86),so,font=fo,fill=(200,222,218),direction='rtl',anchor='ms')
+    d.line([(tx-ow/2-6,y0+86),(tx+ow/2+6,y0+68)],fill=(232,110,96),width=5)
+    # new price
+    gx=tx-(nw+18+sw)/2
+    d.text((gx,y1-40),new,font=fN,fill=CRM,anchor='ls')
+    d.text((gx+nw+18+sw,y1-58),'شيكل',font=fS,fill=GOLD,direction='rtl',anchor='rs')
+    lay=lay.rotate(rot,expand=True,resample=Image.BICUBIC)
+    x=int(cx-lay.width/2); y=int(cy-lay.height/2); x=max(-pad+10,min(W-lay.width+pad-10,x))
+    img.alpha_composite(lay,(x,y))
+
 def price(img,cx,cy,num,sub=None):
     d=ImageDraw.Draw(img); r=105
     d.ellipse([cx-r,cy-r,cx+r,cy+r],fill=(241,234,221)); d.ellipse([cx-r+10,cy-r+10,cx+r-10,cy+r-10],outline=TEAL,width=3)
@@ -60,7 +103,7 @@ def price(img,cx,cy,num,sub=None):
 C=[
  ('camp/c02.png','c1','كومبو الطالب','إندومي وكاسة شـــاي...','بتكفّي لآخر الدرس',
   [(420,690,'إندومي','سادة مع بهارات',[(300,735),(270,770),(300,815)]),(1000,830,'شاي','سخن ومنعنع',[(880,880),(850,900),(800,940)])],
-  ('15','12',790,560),'إندومي وشاي بـ12 شيكل بدل 15 🍜☕'),
+  ('15','12',790,610),'إندومي وشاي بـ12 شيكل بدل 15 🍜☕'),
  ('camp/c05.png','c2','4 إندومي و4 شاي','جيب الشلّـــة...','كومبو الشلّـــة',
   [(400,930,'4 إندومي','سادة مع بهارات',[(290,880),(270,850),(290,815)]),(1010,540,'4 شاي','على الطاولة',[(890,500),(870,480),(850,460)])],
   ('48','40',330,1075),'جيب الشلّة… 4 إندومي و4 شاي بـ40 شيكل بدل 48 🍜🍜🍜🍜'),
@@ -86,7 +129,7 @@ for src_,name,pill,l1,l2,labs,pr,cap in C:
     for lab in labs:
         if len(lab)==3: auto_label(im,*lab)
         else: mlabel(im,*lab)
-    price_banner(im,pr[2],pr[3],pr[0],pr[1])
+    price_box(im,pr[2],pr[3],pr[0],pr[1])
     footer_c(im); im.convert('RGB').save(O+name+'.jpg',quality=95); caps.append((name,cap))
 sh=Image.new('RGB',(3*400+20,1010),(30,30,30))
 for i,(n,_) in enumerate(caps): sh.paste(Image.open(O+n+'.jpg').resize((400,500)),((i%3)*410,(i//3)*510))
