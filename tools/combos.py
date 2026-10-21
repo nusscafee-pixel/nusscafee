@@ -96,6 +96,7 @@ def price_light(img,old,new,XR=1010,y=420):
     d=ImageDraw.Draw(img); fN=DB(64); fS=SR(30); fO=SR(32)
     sh='شيكل'; ws=tw(d,sh,fS); nb=d.textbbox((0,0),new,font=fN); wn=nb[2]-nb[0]; wo=d.textbbox((0,0),old,font=fO)[2]
     gap=14; total=ws+gap+wn+34+wo; x0=XR-total-34; y0=y-62; y1=y+20
+    ov=Image.new('RGBA',img.size,(0,0,0,0)); ImageDraw.Draw(ov).rounded_rectangle([x0,y0,XR,y1],radius=(y1-y0)/2,fill=(10,16,15,130)); img.alpha_composite(ov); d=ImageDraw.Draw(img)
     d.rounded_rectangle([x0,y0,XR,y1],radius=(y1-y0)/2,outline=(244,238,226),width=2)
     x=XR-20
     d.text((x,y-4),sh,font=fS,fill=(230,222,205),direction='rtl',anchor='rs'); x-=ws+gap
