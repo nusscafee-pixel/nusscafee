@@ -70,6 +70,8 @@ The owner wants generation fully hooked up so Claude can work alone.
 - **Indomie is served plain with spices only.** No egg, cheese or vegetables.
 - **Keep the original style.** That means a dark cinematic generated scene, the headline top-right with a teal highlight, the product label with an arrow, and the footer, as in winter_humor and world20. The owner rejected flat graphic or cutout "modern" layouts (`posts/modern/`, called "هبل") and doodle-heavy redesigns. Don't propose new visual directions unless asked.
 - **Offer prices are light and elegant.** Use a thin outlined pill under the headline with the new price, "شيكل", and the old price small and struck through (`price_light` in `tools/combos.py`). The owner rejected a yellow banner and a 3D box.
+- **No text behind the subject.** The owner tried it and reverted. Keep the normal top-right headline.
+- **Product-intro posts:** use no prices and no combo, and write an attractive caption (`posts/intro_owner/`, `tools/intro_owner.py`). This is the approved version.
 - **No posts made from the plain menu/studio photos with a dark grade.** The owner rejected this (`posts/who_winter/`). Every post needs a generated scene with an idea, like the winter_humor series.
 
 ## Editorial layouts (`tools/world20_layouts.py`)
