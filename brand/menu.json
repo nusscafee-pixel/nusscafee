@@ -1,0 +1,892 @@
+{
+ "tenantId": 5,
+ "name": "نُص كافيه",
+ "currency": "₪",
+ "tagline": "مكان بيوسع الكل",
+ "address": "شارع عبد القادر الحسيني - تقاطع شارع ملعب فلسطين مع التايلاندي",
+ "phone": null,
+ "logo": "/menu-assets/tenants/nusscafee/logo.png",
+ "logoColor": "/menu-assets/tenants/nusscafee/logo-color.png",
+ "assets": "/menu-assets/tenants/nusscafee/",
+ "menu": [
+  {
+   "id": "c31",
+   "t": "وجبات",
+   "en": "برجر وسندويشات",
+   "emoji": "🍔",
+   "items": [
+    {
+     "id": 821,
+     "n": "أندومي",
+     "p": 10,
+     "d": "",
+     "img": null
+    },
+    {
+     "id": 500,
+     "n": "برجر",
+     "p": 35,
+     "d": "",
+     "img": "/storage/menu_items/8w7pJOqN9oJ6NPqy63YU3XUy6Gsp35MtlIPMyKwk.jpg",
+     "v": [
+      {
+       "id": 501,
+       "n": "بيف برجر 🍔",
+       "p": 35,
+       "img": "/storage/menu_items/iSIISTd8JSlRhS9cqzBEbTmCkjzXIoqNocVBUOsL.jpg"
+      },
+      {
+       "id": 502,
+       "n": "بيف برجر دبل 🍔",
+       "p": 40,
+       "img": "/storage/menu_items/5qKOEPeMCjLum67ilcSPbK7xSw680ujbTTeN2HoZ.jpg"
+      },
+      {
+       "id": 503,
+       "n": "تشكن برجر دبل 🍔",
+       "p": 40,
+       "img": "/storage/menu_items/t9ilIuj0ENYQos80gqwMTkqmQWirUhaLXisPywRf.jpg"
+      },
+      {
+       "id": 504,
+       "n": "تشكن برجر",
+       "p": 35,
+       "img": "/storage/menu_items/OQqrSYARCP3RvXNFpj3ZKVrTVZNTGq0vQpFPaeOh.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c24",
+   "t": "حلويات",
+   "en": "Desserts",
+   "emoji": "🍰",
+   "items": [
+    {
+     "id": 515,
+     "n": "قنبلة النُص",
+     "p": 25,
+     "d": "",
+     "img": "/storage/menu_items/duPnrofLQzf83l3rB1n0P08mQBRhH45FPKnUBDbI.jpg"
+    },
+    {
+     "id": 519,
+     "n": "بيري  بووووم",
+     "p": 25,
+     "d": "",
+     "img": "/storage/menu_items/lijoKkTUTUrtKsIR1eEOpil3lRQkyDSDGvRyu66H.jpg"
+    },
+    {
+     "id": 639,
+     "n": "مولتن كيك",
+     "p": 20,
+     "d": "",
+     "img": null
+    },
+    {
+     "id": 507,
+     "n": "كيك نوتيلا",
+     "p": 22,
+     "d": "كيك مثلّجة… جامدة… مثل قلب اللي عمل سين زرقا وما رد.\r\nانتعاش، سكر، وعضة برد محترمة.",
+     "img": "/storage/menu_items/huhjiqnn7cpHHqbGUbJl771Ksqm9gCB4kfv69FbU.jpg"
+    },
+    {
+     "id": 282,
+     "n": "براوني",
+     "p": 25,
+     "d": "شوكولاتة، زبدة وكاكاو عاملين قطعة بريئة…\r\nبس أول قضمة بتفهم إنها مش جاية تسلّم عليك وبس.",
+     "img": "/storage/menu_items/ac7oBB3ZUxE3sG8cBycaTdaTcWDcjMxyjiljUBwh.jpg",
+     "v": [
+      {
+       "id": 283,
+       "n": "براوني نوتيلا",
+       "p": 25,
+       "img": "/storage/menu_items/IOdaSdiuezrnqWp1x0dncJora4D2lVYE1X11jyc7.jpg"
+      },
+      {
+       "id": 284,
+       "n": "براوني لوتس",
+       "p": 25,
+       "img": "/storage/menu_items/3FkgFz5CMEZfGAKm36cTb8glfsEAsen0HMLTP7As.jpg"
+      },
+      {
+       "id": 285,
+       "n": "براوني بيستاشيو",
+       "p": 24,
+       "img": "/storage/menu_items/nVIJqzwW2wgaSN2K4Og0XQZa6b52FSgS7VgpDAdS.jpg"
+      }
+     ]
+    },
+    {
+     "id": 260,
+     "n": "كريب",
+     "p": 22,
+     "d": "عجينة رقيقة، صوص، وحشوة داخلة بثقة زايدة…\r\nاللي اخترعها واضح إنه كان جوعان ومبسوط بنفس الوقت.",
+     "img": "/storage/menu_items/M0F0ZBG83XcvEIiJDUlufTnsDymWMNOoWGML3JWL.jpg",
+     "v": [
+      {
+       "id": 261,
+       "n": "كريب",
+       "p": 22,
+       "img": "/storage/menu_items/PTOgZmVFb7V5do15W4at5lleGcB35hzzVhYkqvSr.jpg"
+      },
+      {
+       "id": 262,
+       "n": "كريب مكس",
+       "p": 24,
+       "img": "/storage/menu_items/3MfZCBPwzhU6Zde9ySAvrjhSvvWKHw1LdtiWihdK.jpg"
+      },
+      {
+       "id": 263,
+       "n": "كريب دبي",
+       "p": 29,
+       "img": "/storage/menu_items/zog4Bpn87QYBydszY3scpUW6RE4HH1qtGi6Sassm.jpg"
+      }
+     ]
+    },
+    {
+     "id": 286,
+     "n": "كورنفلكس",
+     "p": 20,
+     "d": "كورنفلكس مقرمش ونوتيلا داخلين على بعض بدون أي نية للتهذيب…\r\nيعني كل لقمة صوتها عالي، وطعمها أعلى.",
+     "img": "/storage/menu_items/O2855rss7nYhRJIAGiPKt492fX8y2xxNQOgL6ydp.jpg",
+     "v": [
+      {
+       "id": 287,
+       "n": "كورنفلكس نوتيلا",
+       "p": 20,
+       "img": "/storage/menu_items/nvQP1h3mWSBQD1pygayRNwj8A1ge3nHjWp8EtiBI.jpg"
+      },
+      {
+       "id": 288,
+       "n": "كورنفلكس بيستاشيو",
+       "p": 20,
+       "img": "/storage/menu_items/YniwHZ1jOIcA5c0cv91a3rFNr3eUlUOJzo42Zjmz.png"
+      },
+      {
+       "id": 289,
+       "n": "كورنفلكس بلوبري",
+       "p": 20,
+       "img": "/storage/menu_items/VcH2o6NezugMgOtuQQNiW8iyA3Hk36gPTTcyssf7.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c28",
+   "t": "موهيتو",
+   "en": "Mojitos",
+   "emoji": "🍃",
+   "items": [
+    {
+     "id": 518,
+     "n": "موهيتو تفاح",
+     "p": 18,
+     "d": "",
+     "img": "/storage/menu_items/v7YPk18sVEUX6icelnXhv6jOhbcZRal3hujv1MzN.jpg"
+    },
+    {
+     "id": 522,
+     "n": "موهيتو بلوبري",
+     "p": 18,
+     "d": "",
+     "img": "/storage/menu_items/LwHLfpWXP7Q6aih7Q2Cmbg3cZlNwCizNy2dwVe5X.jpg"
+    },
+    {
+     "id": 523,
+     "n": "موهيتو عنب",
+     "p": 18,
+     "d": "",
+     "img": "/storage/menu_items/LV2jJCMP0AGhQrtMfKVNlBIMncKUF87Cb07uwOj4.jpg"
+    },
+    {
+     "id": 524,
+     "n": "موهيتو توت",
+     "p": 18,
+     "d": "",
+     "img": "/storage/menu_items/IDnj11xcDigkyZhvA9lxbMw6LzVGUfX56CygyPMh.jpg"
+    },
+    {
+     "id": 525,
+     "n": "موهيتو مكس",
+     "p": 20,
+     "d": "",
+     "img": null
+    },
+    {
+     "id": 271,
+     "n": "موهيتو بطيخ",
+     "p": 18,
+     "d": "بطيخ، نعنع، وثلج وفقاعات…\r\nالمكونات داخلة على الكاسة كأنها طالعة رحلة صيف وما خبرت حدا.",
+     "img": "/storage/menu_items/jtrnHPYswZwWirC1RtDIiiLkVjRdAcxf7ZXpglDw.jpg"
+    },
+    {
+     "id": 274,
+     "n": "موهيتو جوز هند",
+     "p": 18,
+     "d": "جوز هند، حليب، وثلج…\r\nكأن الكاسة حجزت تذكرة عالبحر ونسيت تاخدك معها.",
+     "img": "/storage/menu_items/2mjafQt8TnZy7MygG1426egsncOl9NBZr6f7HHQm.jpg"
+    },
+    {
+     "id": 275,
+     "n": "موهيتو ليتشي",
+     "p": 18,
+     "d": "ليتشي، نعنع، ليمون وثلج…\r\nكاسة داخلة بنعومة زايدة، بس واضح إنها رتّبت للانتعاش من ورا الكواليس.",
+     "img": "/storage/menu_items/kStdB9jQcGKlxr557cBMCgvQKxuh1RREAMNHzUQs.jpg"
+    }
+   ]
+  },
+  {
+   "id": "c29",
+   "t": "عصائر",
+   "en": "breakfast",
+   "emoji": "🍹",
+   "items": [
+    {
+     "id": 514,
+     "n": "عصير مانجا 🥭",
+     "p": 20,
+     "d": "",
+     "img": "/storage/menu_items/pjx3PLxspeP1rqAiMzWNICISCUDZHAVN51cv4TPh.jpg"
+    },
+    {
+     "id": 537,
+     "n": "عصير كوكتيل",
+     "p": 25,
+     "d": "",
+     "img": null
+    },
+    {
+     "id": 804,
+     "n": "عصير كيوي",
+     "p": 20,
+     "d": "",
+     "img": null
+    },
+    {
+     "id": 303,
+     "n": "عصير برتقال 🍊",
+     "p": 17,
+     "d": "برتقال معصور وثلج عاملين إنقاذ صباحي…\r\nكاسة لونها شمس، وتصرفها: اصحى يا نجم.",
+     "img": "/storage/menu_items/8LNdrfdc5JMb6vFV8LilIOnum0USZ9YbfoUO26M4.jpg"
+    },
+    {
+     "id": 713,
+     "n": "افوجادو",
+     "p": 25,
+     "d": "",
+     "img": "/storage/menu_items/3tp6eKxrc8OPRrR4dAJk67Oiv3iuevaCemlmBUdA.jpg"
+    },
+    {
+     "id": 304,
+     "n": "ليمون ونعنع 🍋",
+     "p": 18,
+     "d": "ليمون ونعنع وثلج عاملين فريق إسعاف للحر…\r\nأول رشفة بتخلي الجو يعتذر منك رسميًا.",
+     "img": "/storage/menu_items/ZN5KaK6DUpp5TvxYPJBcpQVU6tw7SGJspoNlWUXT.png"
+    },
+    {
+     "id": 305,
+     "n": "موز وحليب 🍌🥛",
+     "p": 17,
+     "d": "موز وحليب داخلين الخلاط بثقة…\r\nطلعوا كاسة ناعمة بتتعامل مع الجوع كأنه موضوع شخصي.",
+     "img": "/storage/menu_items/u2phCsNgeyDjyiUVkPpl0yRbIFT5GYbEXtesexad.jpg"
+    },
+    {
+     "id": 306,
+     "n": "عصير اناناس 🍍",
+     "p": 18,
+     "d": "أناناس وثلج داخلين الخلاط كأنهم رايحين مصيف…\r\nطلعوا كاسة بتعمل للحر بلوك بدون تفاوض.",
+     "img": "/storage/menu_items/AFz35diPNDGruJrQhdvY8WS7K0D40BF10prl8z0w.jpg"
+    }
+   ]
+  },
+  {
+   "id": "c27",
+   "t": "مشروبات ساخنة",
+   "en": "Hot Drinks",
+   "emoji": "☕",
+   "items": [
+    {
+     "id": 776,
+     "n": "اعشاب بالعسل",
+     "p": 10,
+     "d": "",
+     "img": null
+    },
+    {
+     "id": 805,
+     "n": "اسبريسوا دبل",
+     "p": 14,
+     "d": "",
+     "img": null
+    },
+    {
+     "id": 588,
+     "n": "شاي لاتيه",
+     "p": 10,
+     "d": "",
+     "img": "/storage/menu_items/zSWjRdVYmeCEF8MqlW4ZK3YlBwFYzMac67Dhor3k.png"
+    },
+    {
+     "id": 622,
+     "n": "كورتادو",
+     "p": 20,
+     "d": "",
+     "img": null
+    },
+    {
+     "id": 248,
+     "n": "شاي",
+     "p": 8,
+     "d": "مشروب الحكماء… واللي بطّل يهمهم الكافيين. شاي محترم، بسيط… بتلاقيه ساكت بس فاهم اللعبة كلها.",
+     "img": "/storage/menu_items/xPdPB5G8s9IraEP5wv7KngILfYsqXoXSTGoMqD4V.jpg"
+    },
+    {
+     "id": 267,
+     "n": "مرمية",
+     "p": 7,
+     "d": "ميّة سخنة وورق مرمية…\r\nمشروب داخل يطبطب عليك كأنه جدتك عرفت إنك تعبان.",
+     "img": "/storage/menu_items/kLuO98q3I2MXIMCg2nAdwJzdSVyEvKLnQbZBWoGy.jpg"
+    },
+    {
+     "id": 249,
+     "n": "نسكافيه",
+     "p": 10,
+     "d": "نسكافيه اعتراف رسمي إنك تعبان، مستعجل، وبدك أي إشي يصحيّ مخّك بدون ما يزعل جيبتك.",
+     "img": "/storage/menu_items/4YCI3sWtuuD97n4o6ZucFUy4wNg0ZUdLRRJJeDuq.jpg"
+    },
+    {
+     "id": 280,
+     "n": "اسبريسو سنجل",
+     "p": 8,
+     "d": "بن مركز وميّة تحت الضغط…\r\nرشفة وحدة بس داخلة على اليوم كأنها مدير جديد.",
+     "img": "/storage/menu_items/nMZOEMcdpQjQen7Do7kieXcAMceX78DZA5m9i72x.jpg"
+    },
+    {
+     "id": 250,
+     "n": "قهوة تركي",
+     "p": 7,
+     "d": "بنّ ناعم وميّة على نار هادية…\r\nبس الفنجان طالع بشخصية واحد فاهم الحياة أكثر منا.",
+     "img": "/storage/menu_items/aMvQEYPQUBXYR0wf1J4dxAQUdjkIpqObCpvW7s2E.jpg",
+     "v": [
+      {
+       "id": 265,
+       "n": "قهوة تركي سنجل",
+       "p": 7,
+       "img": "/storage/menu_items/JSGhjVIAbgd0mJt3OXTWKWaQbxmkKoxXQnGB8CT0.jpg"
+      },
+      {
+       "id": 266,
+       "n": "قهوة تركي دبل",
+       "p": 14,
+       "img": "/storage/menu_items/2OKii5y61m3fvtxad3JDCyCfzaC93A7a3YuHmIqj.jpg"
+      }
+     ]
+    },
+    {
+     "id": 295,
+     "n": "كابتشينو",
+     "p": 10,
+     "d": "إسبريسو تحت، حليب بالنص، ورغوة فوق عاملة فيها طبقة أرستقراطية…\r\nكاسة مرتبة زيادة عن اللزوم بس قلبها مشاكس.",
+     "img": "/storage/menu_items/tmi9kAkIRtMaEawQdF5QpJME8KfmXWWAEKWOP0rV.jpg",
+     "v": [
+      {
+       "id": 296,
+       "n": "كابتشينو",
+       "p": 10,
+       "img": "/storage/menu_items/XI8GlaXgNlvQQRjhqASM0tdNtBOUqBBsD6STD7h3.jpg"
+      },
+      {
+       "id": 297,
+       "n": "كابتشينو الأغنياء",
+       "p": 18,
+       "img": "/storage/menu_items/hJ7FXRa6OBQhn1hNW1qfdtH9q04he0UyOGBEhvcv.jpg"
+      }
+     ]
+    },
+    {
+     "id": 298,
+     "n": "لاتيه",
+     "p": 14,
+     "d": "حليب دافي ماسك الموضوع بهدوء، وإسبريسو داخل يلمّح مش يصرّخ…\r\nكاسة بتقنعك إن اليوم ممكن يمرّ بدون دراما.",
+     "img": "/storage/menu_items/Z8RJklJsY7fQLDflrpYxuixRUwiejPC2L6gfQEZk.jpg",
+     "v": [
+      {
+       "id": 299,
+       "n": "لاتيه",
+       "p": 14,
+       "img": "/storage/menu_items/ibLWfHp3BFEcEQ8apgLhNUQSnDjIgsrI1FChxvo0.jpg"
+      },
+      {
+       "id": 300,
+       "n": "فانيلا لاتيه",
+       "p": 15,
+       "img": "/storage/menu_items/2CERL6WBE8s9o12mSojnwjAjqNEZQOKAagsKnbyh.jpg"
+      },
+      {
+       "id": 302,
+       "n": "سبانش لاتيه",
+       "p": 16,
+       "img": "/storage/menu_items/KaumEOB8FQS5uTqWBrBqI4kQvChZBznIjotrY9v5.jpg"
+      },
+      {
+       "id": 301,
+       "n": "فرينش لاتيه",
+       "p": 16,
+       "img": "/storage/menu_items/uZ813JYcDJc3WTBaZH7QPxTt2gR5UbHZrOHkKruP.jpg"
+      }
+     ]
+    },
+    {
+     "id": 268,
+     "n": "هوت شوكليت",
+     "p": 14,
+     "d": "كاكاو وحليب سخن عاملين بطانية جوّا الكاسة…\r\nأول رشفة وبتحس الشتوية اعتذرت منك شخصيًا.",
+     "img": "/storage/menu_items/vc4bRf8PcfijjSxDhSvpD7eg1sAyiIEIokZXvASg.jpg",
+     "v": [
+      {
+       "id": 269,
+       "n": "هوت شوكليت",
+       "p": 14,
+       "img": "/storage/menu_items/exnjnQU9nRYlcfHCf03vkATtXsuIt28HZFoslaLe.jpg"
+      },
+      {
+       "id": 270,
+       "n": "هوت بستاشيو",
+       "p": 14,
+       "img": "/storage/menu_items/IUrSpiW2rnOgFYrjEBufyFy0Ay9yhphpD2RU93GZ.jpg"
+      }
+     ]
+    },
+    {
+     "id": 292,
+     "n": "كوفي",
+     "p": 16,
+     "d": "القهوة واضحة داخلة تعدّل المزاج… بس النوتيلا والحليب خربوا الخطة وحوّلوها لدلع رسمي.",
+     "img": "/storage/menu_items/ltn7zdjaCWSuMt80sop7pR57aZtOQGspSQaaQc8e.jpg",
+     "v": [
+      {
+       "id": 293,
+       "n": "كوفي نوتيلا",
+       "p": 16,
+       "img": "/storage/menu_items/dGKODV3q2Mb5LiI72bHkK6bA4ztn1D8mDcAHI1Z2.jpg"
+      },
+      {
+       "id": 294,
+       "n": "كوفي لوتس",
+       "p": 16,
+       "img": "/storage/menu_items/a3c8fPgy0sihGF8FygLhbFhWIWW7vjnVMt7OYrBH.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c25",
+   "t": "مشروبات باردة",
+   "en": "Cold Drinks",
+   "emoji": "🧊",
+   "items": [
+    {
+     "id": 517,
+     "n": "سولتد كراميل",
+     "p": 25,
+     "d": "",
+     "img": "/storage/menu_items/Rd8nYTBubqKd3gZJO87APgCBnUOEgqnZhyVDM7mC.jpg"
+    },
+    {
+     "id": 224,
+     "n": "آيس أمريكانو",
+     "p": 20,
+     "d": "إسبريسو، ميّة، وثلج…\r\nثلاثة بس، بس داخلين على المزاج كأنهم لجنة تحقيق باردة.",
+     "img": "/storage/menu_items/5nvxZy8v7c0e6ydykVCsePpvOAa2O9zJp2hlzDGK.jpg",
+     "v": [
+      {
+       "id": 259,
+       "n": "أيس امريكانو",
+       "p": 20,
+       "img": "/storage/menu_items/tRjKeOLq7ieytRrbUYCZ1nFq2DOtUssPbaYhkHQG.jpg"
+      },
+      {
+       "id": 233,
+       "n": "ايس كوكونات امريكانو",
+       "p": 20,
+       "img": "/storage/menu_items/fLlG4TF7zYBICXd6chMMTZhJZ6KtvWzLYIUUCcvJ.jpg"
+      }
+     ]
+    },
+    {
+     "id": 225,
+     "n": "آيس كافي",
+     "p": 20,
+     "d": "نسخة القهوة اللي فقدت أعصابها… وتجمّدت عشان ما تعيط. بتشربه بتحس أنك داخل اجتماع صيفي بلا تكييف.",
+     "img": "/storage/menu_items/DNvspBn0SMOesrO7WXs7uJKqefMXIHanuIuhZz8H.jpg",
+     "v": [
+      {
+       "id": 226,
+       "n": "ايس كوفي",
+       "p": 20,
+       "img": "/storage/menu_items/HAddywYpDUUY2GHD1AOMb2IZ07ekJcNsfVc776ej.jpg"
+      },
+      {
+       "id": 227,
+       "n": "ايس كوفي نوتيلا",
+       "p": 22,
+       "img": "/storage/menu_items/H9sMj6TlIIzP1tzI5SpzGVhCB5hzKNfkSkr5dEFr.jpg"
+      },
+      {
+       "id": 228,
+       "n": "ايس كوفي لوتس",
+       "p": 22,
+       "img": "/storage/menu_items/oa9uIpOA3rXjf9nk4KX65Ydy1plvGeGdY5zrYTQk.jpg"
+      }
+     ]
+    },
+    {
+     "id": 229,
+     "n": "آيس لاتيه",
+     "p": 22,
+     "d": "لاتيه بارد… مناسب للناس اللي مشاعرهم بردانة من 2018 ومش راضية تدفى.",
+     "img": "/storage/menu_items/Qe4EX5E68sEokS6OyiPnYMzZKyMfuwXv13A2bCpo.jpg",
+     "v": [
+      {
+       "id": 264,
+       "n": "آيس لاتيه",
+       "p": 22,
+       "img": "/storage/menu_items/ubS3Fjp0Fq5sunZlpqGZJ3wEY1yukH1BxFqomX1v.jpg"
+      },
+      {
+       "id": 230,
+       "n": "آيس فانيلا لاتيه",
+       "p": 22,
+       "img": "/storage/menu_items/yh7Qtp00ZynOe2D34I9iXAFrRSZCw1ytSMwncTc5.jpg"
+      },
+      {
+       "id": 231,
+       "n": "ايس سينمون لاتيه",
+       "p": 20,
+       "img": "/storage/menu_items/yIJkLHcrulmOI1sf6f3Ye8nT9in6JHPaDK3fy3Np.jpg"
+      },
+      {
+       "id": 232,
+       "n": "ايس كوكونات لاتيه",
+       "p": 22,
+       "img": "/storage/menu_items/33O9PS4zoL9wgNOoTnFtuQcBUyUPTNhlIs1aN4ai.jpg"
+      },
+      {
+       "id": 251,
+       "n": "آيس لاتيه",
+       "p": 20,
+       "img": "/storage/menu_items/KCGd7QZNNVpS6GHpEV0c5WWTZoUwyshItnxWROxp.jpg"
+      }
+     ]
+    },
+    {
+     "id": 234,
+     "n": "آيس كراميل ماكياتو",
+     "p": 25,
+     "d": "",
+     "img": "/storage/menu_items/jizuUxC6jENFJl4mDGtgQqEkeULx6SL6DBqOvJyH.jpg"
+    },
+    {
+     "id": 235,
+     "n": "ايس موكا",
+     "p": 20,
+     "d": "قهوة، حليب وشوكولاتة داخلين على ثلج بثقة…\r\nوطلعوا آيس موكا يبرّدك ويصحصحك بنفس الشفطة.",
+     "img": "/storage/menu_items/7hN2UCOGPXXHHcdwnxfNNvGlTcNDhGQ1Y75ikIoX.jpg"
+    },
+    {
+     "id": 236,
+     "n": "ايس سبانيش لاتيه",
+     "p": 22,
+     "d": "قهوة وحليب وثلج داخلين على سبانيش لاتيه بثقل…\r\nوطلعوا مشروب بارد، ناعم، وبدلّل المزاج من أول شفطة.",
+     "img": "/storage/menu_items/gOjAqhJyt1LRab5J5TV6yX4FbTjAuS4Ryza1yCF6.jpg",
+     "v": [
+      {
+       "id": 237,
+       "n": "ايس سبانش كراميل",
+       "p": 24,
+       "img": "/storage/menu_items/PPnlhajeoptdlmVwdSkdmMwAeF14CEwjO3dJVp5O.jpg"
+      },
+      {
+       "id": 508,
+       "n": "ايس سبانيش لاتيه",
+       "p": 22,
+       "img": "/storage/menu_items/agBhSWptBZzCRbW84AyK5HbEchTNLzKZlcTz34Rk.jpg"
+      }
+     ]
+    },
+    {
+     "id": 239,
+     "n": "مشروبات غازية",
+     "p": 10,
+     "d": "غاز، برودة، وفقاعات داخلة تعمل حفلة…\r\nوطلع مشروب يفقع المزاج من أول رشفة.",
+     "img": "/storage/menu_items/TzBjXJWnZXPCtewSkpJdfYRv5IflLLcW5NDXhkug.jpg",
+     "v": [
+      {
+       "id": 770,
+       "n": "فانتا",
+       "p": 8,
+       "img": "/storage/menu_items/7vbypvJlnnqSKQhSg55v9RQf3I2nAhQbTt8UeCTO.jpg"
+      },
+      {
+       "id": 827,
+       "n": "مشروب V",
+       "p": 10,
+       "img": "/storage/menu_items/VTkAR6ALPxiAIhOW4qHCfOqMHxxSGXmLstAD5JvH.jpg"
+      },
+      {
+       "id": 828,
+       "n": "مشروب V اناناس",
+       "p": 10,
+       "img": "/storage/menu_items/CSFwyA2uf91SEvKVh2ts8IbCX9ipDzCkTgCTIwtP.png"
+      },
+      {
+       "id": 241,
+       "n": "سبرايت",
+       "p": 10,
+       "img": "/storage/menu_items/LFeuD8iO21AoZDAWG2zTkqhvGuXIySDPAk1P8zFd.jpg"
+      },
+      {
+       "id": 498,
+       "n": "فيروز",
+       "p": 10,
+       "img": "/storage/menu_items/d4aZAaDLZldGMZG0AVJ2KAm3lB5ORKTvFQOAEncY.jpg"
+      },
+      {
+       "id": 245,
+       "n": "شويبس",
+       "p": 10,
+       "img": "/storage/menu_items/L0puaKNuQcypgCmye7BXpUupJdwMAsh3R0sNiLHZ.jpg"
+      },
+      {
+       "id": 247,
+       "n": "كوكاكولا",
+       "p": 10,
+       "img": "/storage/menu_items/2UCRc5mw1AbZmyzcR8zJsTIRrJ2KimTcsyrb3fP8.jpg"
+      }
+     ]
+    },
+    {
+     "id": 242,
+     "n": "مشروبات طاقة",
+     "p": 8,
+     "d": "مشروب طاقة بتركيبة منعشة وقوية، يمنحك دفعة تركيز ونشاط طويلة، مناسب للدراسة، الشغل، والجيم.",
+     "img": "/storage/menu_items/LeTWBGWZLgavBUr8uYOQ0GooOIpLuovvDDL6HQjE.jpg",
+     "v": [
+      {
+       "id": 243,
+       "n": "مشروب طاقة بلو",
+       "p": 10,
+       "img": "/storage/menu_items/aeYMTQMagcJNsuJV1BasnmVWKT8Tlxvao3wudoxm.jpg"
+      },
+      {
+       "id": 244,
+       "n": "مشروب طاقة XL",
+       "p": 10,
+       "img": "/storage/menu_items/Q1ZR5Crvtk4Fkek0poTMvO9tilGQUSy6u9718ZGr.jpg"
+      },
+      {
+       "id": 246,
+       "n": "مشروب طاقة بلو بطيخ",
+       "p": 10,
+       "img": "/storage/menu_items/GCjx1fwIWHr3vd947NoCPMD9gQ2qOYFeE78DY8v0.jpg"
+      }
+     ]
+    },
+    {
+     "id": 499,
+     "n": "مياة صغيرة",
+     "p": 5,
+     "d": "",
+     "img": "/storage/menu_items/1O8WmZCjj1JsM4yOu2AgV3hNpUBbDnwNYegdPrBd.jpg"
+    }
+   ]
+  },
+  {
+   "id": "c26",
+   "t": "مشروبات مثلجة",
+   "en": "Milkshakes & Frozen",
+   "emoji": "🥤",
+   "items": [
+    {
+     "id": 212,
+     "n": "ميلك شيك",
+     "p": 24,
+     "d": "مشروب معمول من حليب وآيس كريم وقرار غير مسؤول…\r\nاسمه ميلك شيك، وتأثيره سعادة من أول شفطة.",
+     "img": "/storage/menu_items/GiOMmQblrwhw4gTdaB9c94WIe7pR8jgLTGcO4MWB.jpg",
+     "v": [
+      {
+       "id": 214,
+       "n": "ميلك شيك نوتيلا",
+       "p": 24,
+       "img": "/storage/menu_items/PpYB3gBzxd0pPLdQExUhzkmk2hz1s74NQWNyQd6r.jpg"
+      },
+      {
+       "id": 215,
+       "n": "ميلك شيك لوتس",
+       "p": 24,
+       "img": "/storage/menu_items/QQILhUVcMkOiixC9zETheqYZVjdROwDpVDRHJeq9.jpg"
+      },
+      {
+       "id": 216,
+       "n": "ميلك شيك اوريو",
+       "p": 24,
+       "img": "/storage/menu_items/rc7HT6LvyuqcHP9ZIJY76d9LP8lmRKcNn2M8cPoa.jpg"
+      },
+      {
+       "id": 217,
+       "n": "ميلك شيك بلوبري",
+       "p": 24,
+       "img": "/storage/menu_items/PUqgb1Kwzh3zlosR5pUIPoCBfKaAQOsDhG9NlnpO.jpg"
+      },
+      {
+       "id": 218,
+       "n": "ميلك شيك بستاشيو",
+       "p": 24,
+       "img": "/storage/menu_items/n087LYvdgsdtZVmSFD2HxyaPAoaJKvMWoWLc9F1G.jpg"
+      },
+      {
+       "id": 219,
+       "n": "ميلك شيك فانيلا",
+       "p": 22,
+       "img": "/storage/menu_items/nhsFIPU3gylCDe9XSgCK5u41BTwJLXGqXguGuXJG.png"
+      }
+     ]
+    },
+    {
+     "id": 220,
+     "n": "فرابتشينو",
+     "p": 26,
+     "d": "مشروب يزوّد السعادة… ويقلّل العمر المتوقع للدايت.",
+     "img": "/storage/menu_items/t3EvG0TcLt0xdZZoyhrPID5b9YTdpPWKwORkdzqh.jpg",
+     "v": [
+      {
+       "id": 221,
+       "n": "فرابتشينو نوتيلا",
+       "p": 26,
+       "img": "/storage/menu_items/rU0zikB9YdaA7MHJinIGqcMZJuSQRhK4lW5hXIIi.jpg"
+      },
+      {
+       "id": 222,
+       "n": "فرابتشينو موكا",
+       "p": 26,
+       "img": "/storage/menu_items/GiahNPaK42dtWqwmzg0JG2S0MP34eeFwCYEiCMHd.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c30",
+   "t": "فطور",
+   "en": "breakfast",
+   "emoji": "🥪",
+   "items": [
+    {
+     "id": 512,
+     "n": "فينو نقانق بالجبنة",
+     "p": 15,
+     "d": "",
+     "img": "/storage/menu_items/7xDG51FdVWSYnK0wxHrJE0BCdniOpqkv2jVK1Kll.jpg"
+    },
+    {
+     "id": 513,
+     "n": "فينو بسطرمة وجبنة",
+     "p": 15,
+     "d": "",
+     "img": "/storage/menu_items/0NDv7Gpu29PRpEQz6tfbKy9wtf8I0Jare44xd2gr.jpg"
+    },
+    {
+     "id": 510,
+     "n": "فينو جبنة صفرا",
+     "p": 7,
+     "d": "",
+     "img": null
+    }
+   ]
+  },
+  {
+   "id": "c32",
+   "t": "خدمات",
+   "en": "Cards",
+   "emoji": "📇",
+   "items": [
+    {
+     "id": 526,
+     "n": "تحميل 1 غيغا",
+     "p": 4,
+     "d": "",
+     "img": "/storage/menu_items/oa7JgZiZMDihSoy0KjZszaRm3jnBxR6T3vSV1DGo.png"
+    },
+    {
+     "id": 276,
+     "n": "خدمة انترنت",
+     "p": 5,
+     "d": "",
+     "img": "/storage/menu_items/qZyw3RFr333T7hjDHftOXMQzWmwcs500JiTe4Td1.png"
+    },
+    {
+     "id": 277,
+     "n": "خدمة",
+     "p": 1,
+     "d": "",
+     "img": "/storage/menu_items/XRqoGuKsMtZykZpWvPNYkCMclPxqxMv49qUA1DuV.png"
+    },
+    {
+     "id": 278,
+     "n": "خدمة",
+     "p": 5,
+     "d": "",
+     "img": "/storage/menu_items/1EC8itM8nk8PhH0SmMg9tXg3pX0UCzLOGOYWF3Ox.png"
+    }
+   ]
+  }
+ ],
+ "ordering": {
+  "enabled": true,
+  "dine_in": true,
+  "takeaway": false,
+  "delivery": true,
+  "require_name": false,
+  "require_qr": false,
+  "qr": null,
+  "delivery_fee": 10,
+  "min_order": 15,
+  "zones": [
+   {
+    "id": 3,
+    "name": "غزة",
+    "price": 10
+   },
+   {
+    "id": 4,
+    "name": "تل الهوا",
+    "price": 15
+   },
+   {
+    "id": 5,
+    "name": "الرمال",
+    "price": 10
+   },
+   {
+    "id": 6,
+    "name": "النصر",
+    "price": 10
+   },
+   {
+    "id": 7,
+    "name": "الكرامة",
+    "price": 15
+   },
+   {
+    "id": 8,
+    "name": "الشيخ رضوان",
+    "price": 10
+   }
+  ]
+ },
+ "prepay": true
+}

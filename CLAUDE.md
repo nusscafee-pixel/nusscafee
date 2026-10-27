@@ -7,7 +7,8 @@ This repo holds the Instagram content for **Nuss Cafe (نُص كافيه)**. The
 - Branch `nusscafee-pixel-patch-1`: **raw product photos** (69 images, beige or marble studio shots).
 - `posts/`: finished posts.
 - `tools/`: Python (Pillow + raqm) helpers for compositing text, highlights, arrows, footer and scenes.
-- `brand/logo_extracted.png`: logo cut from a reference post. It is low-res; ask for a real transparent PNG.
+- `brand/logo_official.png` / `brand/logo_official_color.png`: the official transparent logos, from the digital menu. Use these instead of `logo_extracted.png`.
+- **`brand/MENU.md` and `brand/menu.json`:** the real menu with prices, from https://www.cafterco.com/nusscafee. Always take product names and prices from here. Never invent prices.
 
 ## Brand style (match the reference posts)
 - **Mood:** dark, cinematic, moody café scenes. Warm spotlight on the product, deep shadows, charcoal and black tones, palm-leaf shadows. Some posts use a grey wall with a black arch holding the logo.
@@ -90,3 +91,20 @@ Text color switches to dark automatically over light backgrounds. The product la
 - They write text only. They don't post, and they don't replace Metricool.
 - Brand voice lives in `brand/voice.md`. Copy it to `~/.claude/instagram/voice.md` before using them.
 - They are English-centric. For Arabic captions, follow the caption rules above, which take priority.
+
+## The café, real (owner photos, Oct 2026)
+- **Building:** ground floor of a residential building on a street corner, with a two-storey lobby and a mezzanine with a teal mesh railing. Outside are dark glass panels with funny white handwritten lines, and a sign reading "نُص كافيه… نُصفك المفقود" and "صُنع في غزة MADE IN GAZA".
+- **Inside:**
+  - A black ceiling with teal-framed light panels, teal walls and a brick wall.
+  - Bamboo planters, a grey velvet sofa with triangle wood tables, and black chairs.
+  - Boho round placemats and a teal table-number card with a QR code.
+  - A white doodle wall reading "الطعم الحقيقي للقهوة", and the curly-hair girl mural (an icon of the place).
+  - A banner listing customer types ("مصمم طموح، حداد صامد، مبرمج ذكي…") with the line "مكان بيوسع الكل".
+  - Wall lines: "نُصّه مزاج… نُصّه إنجاز" and "ريموت المكيف ضايع".
+- **Features:**
+  - A screen for matches and chess tables.
+  - Birthday setups with a KitKat cake.
+  - A yellow bar bell rung when an order is ready.
+  - The barista measures shakes with a ruler (self-roast gold).
+  - Food: burgers, wraps ("وجبة النُّص") and crepes.
+- **Brand voice:** the place is already self-roasting and funny. Lean into humour and جلد الذات.
