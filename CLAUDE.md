@@ -73,6 +73,7 @@ The owner wants generation fully hooked up so Claude can work alone.
 - **Offer prices are light and elegant.** Use a thin outlined pill under the headline with the new price, "شيكل", and the old price small and struck through (`price_light` in `tools/combos.py`). The owner rejected a yellow banner and a 3D box.
 - **No text behind the subject.** The owner tried it and reverted. Keep the normal top-right headline.
 - **Product-intro posts:** use no prices and no combo, and write an attractive caption (`posts/intro_owner/`, `tools/intro_owner.py`). This is the approved version.
+- **Real place photos are liked** (lamp, sofa, night lights): use them for the place. For products, use the **high-quality menu photos** (the `img` URLs in `brand/menu.json`, under https://www.cafterco.com/storage/menu_items/), not blurry video screenshots. Never show San Sebastian; it is not on the menu.
 - **No posts made from the plain menu/studio photos with a dark grade.** The owner rejected this (`posts/who_winter/`). Every post needs a generated scene with an idea, like the winter_humor series.
 
 ## Editorial layouts (`tools/world20_layouts.py`)
