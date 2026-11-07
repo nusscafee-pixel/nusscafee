@@ -16,8 +16,8 @@ def finish(base,pill,l1,l2,lab,name):
     im=topdark(base,520,180); CUR[0]=im.copy(); head(im,pill,l1,l2)
     mlabel(im,*lab); footer_c(im); im.convert('RGB').save(O+name+'.jpg',quality=95)
 b=place('win/c04.png','cuts/rnut.png',490,1095,740)
-finish(b,'جلد ذات شتوي','نوتيلا مثلّجـــة...','جامدة متل قلب حـــدا',(1010,800,'كيك نوتيلا','22 شيكل · مثلّجة',[(870,830),(760,830),(640,850)]),'P1_nutella')
-b=place('win/c01.png','cuts/rcrepe.png',520,1150,700)
-finish(b,'الشتا عنّا','الجو بـــارد...','والكريب سخـــن',(1010,760,'كريب','22 شيكل · دبي 29',[(870,800),(790,840),(700,880)]),'P2_crepe')
+finish(b,'جلد ذات شتوي','نوتيلا مثلّجـــة...','جامدة متل قلب حـــدا',(1010,640,'كيك نوتيلا','مثلّجة ومغرّقة نوتيلا',[(880,680),(780,720),(660,790)]),'P1_nutella')
+b=place('win/c01_full.png','cuts/rcrepe.png',520,1075,760)
+finish(b,'الشتا عنّا','الجو بـــارد...','والكريب سخـــن',(1010,560,'كريب','سخن وطازة',[(880,600),(800,640),(720,700)]),'P2_crepe')
 from PIL import Image as I2
 a=_open(O+'P1_nutella.jpg').resize((540,675)); bb=_open(O+'P2_crepe.jpg').resize((540,675)); s=I2.new('RGB',(1080,675)); s.paste(a,(0,0)); s.paste(bb,(540,0)); s.save(O+'preview.jpg'); print('ok')
