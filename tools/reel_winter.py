@@ -14,7 +14,6 @@ scenes.append((load('who2/g02.png'),'المطر بـــرّا...','واللات
 scenes.append((load('who2/g01.png'),'البردان الدايـــم؟','هوت شوكليـــت'))
 scenes.append((place('win/c04.png','cuts/rnut.png',490,1095,740),'نوتيلا مثلّجـــة...','جامدة متل قلب حـــدا'))
 scenes.append((place('win/c01_full.png','cuts/rcrepe.png',520,1075,760),'الجو بـــارد...','والكريب سخـــن'))
-scenes.append((load('real/r68.png'),'بـــرد؟','الكنباية محجوزة إلك'))
 for k,(im,l1,l2) in enumerate(scenes):
     bg=fit(im,int(VW*1.12),int(VH*1.12)); bg.save(R+f'bg{k}.png')
     ov=Image.new('RGBA',(VW,VH),(0,0,0,0)); d=ImageDraw.Draw(ov)
@@ -36,5 +35,5 @@ d.text((VW/2,1060),'نُصّك المفقـــود',font=DB(96),fill=WHITE,dire
 hl(ec,d,VW/2+tw(d,'دافي هالشتا',DB(80))/2,1200,'دافي هالشتا',DB(80),pad=(18,5),skew=9); d=ImageDraw.Draw(ec)
 d.text((VW/2,1200),'دافي هالشتا',font=DB(80),fill=WHITE,direction='rtl',anchor='ms')
 d.text((VW/2,1360),'تقاطع شارع ملعب فلسطين، مع شارع التايلاندي',font=SR(36),fill=(200,214,210),direction='rtl',anchor='ms')
-d.text((VW/2,1430),'السبت – الخميس 10 – 10  ·  الجمعة 3 – 10',font=SB(36),fill=(200,214,210),direction='rtl',anchor='ms')
+d.text((VW/2,1430),'كل يوم من 9 الصبح لـ 9 المسا',font=SB(40),fill=(200,214,210),direction='rtl',anchor='ms')
 ec.convert('RGB').save(R+'end.png'); print(len(scenes))
