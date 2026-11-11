@@ -109,3 +109,8 @@ Text color switches to dark automatically over light backgrounds. The product la
   - The barista measures shakes with a ruler (self-roast gold).
   - Food: burgers, wraps ("وجبة النُّص") and crepes.
 - **Brand voice:** the place is already self-roasting and funny. Lean into humour and جلد الذات.
+
+## Voiceover (ElevenLabs)
+- The owner's voice is **Abdullah** (voice_id `pCKbQ4EPGE06zpEPGNvS`, "Abdullah - Professional, and Energetic"), saved in their workspace. Always use it.
+- Use model `eleven_v3` with emotion tags such as `[warmly]`, `[softly]`, `[excited]` and `[laughs softly]`. The owner wants feeling that reaches the customer, not a flat read.
+- Cost is about 1 credit per character.
